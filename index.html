@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCam Config by nico</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #0ff;
+      box-shadow: 0 0 25px #0ff;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px #0ff;
+    }
+    .buttons {
+      margin-bottom: 25px;
+    }
+    .buttons button,
+    .buttons a button,
+    #playMusic {
+      background: transparent;
+      border: 2px solid #f0f;
+      color: #f0f;
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 0 10px #f0f, 0 0 20px #f0f inset;
+    }
+    button:hover, #playMusic:hover {
+      background: #f0f;
+      color: #000;
+    }
+    .config-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .card a {
+      display: block;
+      background: #222;
+      border: 2px solid #0f0;
+      color: #0f0;
+      padding: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #0f0, 0 0 20px #0f0 inset;
+    }
+    .card a:hover {
+      background: #0f0;
+      color: #000;
+    }
+    audio {
+      margin-top: 20px;
+      outline: none;
+      display: none;
+    }
+    iframe {
+      width: 100%;
+      height: 215px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00f, 0 0 30px #0ff inset;
+      margin-bottom: 30px;
+      border: none;
+    }
+    p {
+      color: #aaa;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="frofil.jpg" alt="Foto Profil" class="profile-pic">
+    <h1>@nico_pmk_jr</h1>
+    <div class="buttons">
+      <button onclick="alert('Thanks udah follow bro!')">🔔 Follow</button>
+      <a href="https://tiktok.com/@nico_pmk_jr" target="_blank"><button>👑 TikTok</button></a>
+      <button id="playMusic" onclick="document.getElementById('bgm').play()">▶️ PLAY MUSIK</button>
+    </div>
+
+    <audio id="bgm" loop>
+      <source src="rasya.mp3" type="audio/mp3">
+    </audio>
+
+    <p>📽️ Tonton dulu cara pasang config GCam di bawah ini:</p>
+
+    <!-- ✅ Bagian video sudah diperbaiki pakai iframe -->
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/JjUjA_DfsoA" 
+        title="Tutorial Pasang GCam" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p>📥 Pilih salah satu dari 20 Config GCam terbaik</p>
+    <div class="config-list">
+      <div class="card"><a href="file1" download>📥 Config 1</a></div>
+      <div class="card"><a href="file2" download>📥 Config 2</a></div>
+      <div class="card"><a href="file3" download>📥 Config 3</a></div>
+      <div class="card"><a href="file4" download>📥 Config 4</a></div>
+      <div class="card"><a href="configs/config5.xml" download>🔒 Config 5</a></div>
+      <div class="card"><a href="configs/config6.xml" download>🔒 Config 6</a></div>
+      <div class="card"><a href="configs/config7.xml" download>🔒 Config 7</a></div>
+      <div class="card"><a href="configs/config8.xml" download>🔒 Config 8</a></div>
+      <div class="card"><a href="configs/config9.xml" download>🔒 Config 9</a></div>
+      <div class="card"><a href="configs/config10.xml" download>🔒 Config 10</a></div>
+      <div class="card"><a href="configs/config11.xml" download>🔒 Config 11</a></div>
+      <div class="card"><a href="configs/config12.xml" download>🔒 Config 12</a></div>
+      <div class="card"><a href="configs/config13.xml" download>🔒 Config 13</a></div>
+      <div class="card"><a href="configs/config14.xml" download>🔒 Config 14</a></div>
+      <div class="card"><a href="configs/config15.xml" download>🔒 Config 15</a></div>
+      <div class="card"><a href="configs/config16.xml" download>🔒 Config 16</a></div>
+      <div class="card"><a href="configs/config17.xml" download>🔒 Config 17</a></div>
+      <div class="card"><a href="configs/config18.xml" download>🔒 Config 18</a></div>
+      <div class="card"><a href="configs/config19.xml" download>🔒 Config 19</a></div>
+      <div class="card"><a href="configs/config20.xml" download>🔒 Config 20</a></div>
+    </div>
+  </div>
+</body>
+</html>
